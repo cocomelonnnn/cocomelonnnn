@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260">
+  <defs>
+    <linearGradient id="titlebar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF8FC0"/>
+      <stop offset="100%" stop-color="#FF5DA8"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="584" height="244" fill="#2B2130" opacity="0.30"/>
+  <rect x="0" y="0" width="584" height="244" fill="#FFF6FB" stroke="#2B2130" stroke-width="3"/>
+
+  <!-- title bar -->
+  <rect x="0" y="0" width="584" height="34" fill="url(#titlebar2)" stroke="#2B2130" stroke-width="3"/>
+  <text x="14" y="23" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#ffffff">♥ notes.txt - Notepad</text>
+  <g stroke="#2B2130" stroke-width="2">
+    <rect x="502" y="8" width="18" height="18" fill="#ffffff"/>
+    <line x1="507" y1="21" x2="515" y2="21"/>
+    <rect x="528" y="8" width="18" height="18" fill="#ffffff"/>
+    <rect x="554" y="8" width="18" height="18" fill="#FF6B6B"/>
+    <line x1="558" y1="12" x2="568" y2="22"/>
+    <line x1="568" y1="12" x2="558" y2="22"/>
+  </g>
+
+  <!-- menu bar -->
+  <line x1="0" y1="58" x2="584" y2="58" stroke="#E8B8D4" stroke-width="1"/>
+  <text x="14" y="52" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#8F6FD6">File   Edit   Format   View   Help</text>
+
+  <!-- body text -->
+  <text x="24" y="100" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#3A2A40">you don't need permission</text>
+  <text x="24" y="130" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#3A2A40">to build cool things.</text>
+  <text x="24" y="160" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#3A2A40">you just start,</text>
+  <text x="24" y="190" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#3A2A40">and you fix it as you go.</text>
+</svg>
