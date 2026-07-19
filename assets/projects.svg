@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760">
+<defs>
+<linearGradient id="b" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#FF4FA3"/>
+<stop offset="100%" stop-color="#D4AF37"/>
+</linearGradient>
+</defs>
+
+<rect x="20" y="20" width="1560" height="720" rx="24"
+fill="#15101F" stroke="url(#b)" stroke-width="3"/>
+
+<text x="70" y="75"
+font-family="Segoe UI"
+font-size="30"
+font-weight="700"
+fill="#FF4FA3">✦ PROJECT REGISTRY</text>
+
+<line x1="70" y1="95" x2="1530" y2="95"
+stroke="#D4AF37" stroke-width="2"/>
+
+<!-- Card function -->
+<g font-family="Segoe UI">
+
+<!-- Card 1 -->
+<rect x="70" y="130" width="690" height="240" rx="18"
+fill="#1C1527" stroke="#D4AF37"/>
+<text x="100" y="170" font-size="28" fill="#F5F5F5">DCF Valuation Engine</text>
+<text x="100" y="205" font-size="18" fill="#B8B0C7">AI-powered intrinsic valuation platform</text>
+<text x="100" y="245" font-size="16" fill="#D4AF37">STACK</text>
+<text x="100" y="272" font-size="18" fill="#F5F5F5">Python • FastAPI • React • PostgreSQL</text>
+<circle cx="105" cy="325" r="7" fill="#FF4FA3"/>
+<text x="125" y="332" font-size="18" fill="#F5F5F5">ACTIVE</text>
+
+<!-- Card 2 -->
+<rect x="840" y="130" width="690" height="240" rx="18"
+fill="#1C1527" stroke="#D4AF37"/>
+<text x="870" y="170" font-size="28" fill="#F5F5F5">FinCrimeAI</text>
+<text x="870" y="205" font-size="18" fill="#B8B0C7">Financial crime detection using machine learning</text>
+<text x="870" y="245" font-size="16" fill="#D4AF37">STACK</text>
+<text x="870" y="272" font-size="18" fill="#F5F5F5">Python • XGBoost • SQL</text>
+<circle cx="875" cy="325" r="7" fill="#D4AF37"/>
+<text x="895" y="332" font-size="18" fill="#F5F5F5">RESEARCH</text>
+
+<!-- Card 3 -->
+<rect x="70" y="420" width="690" height="240" rx="18"
+fill="#1C1527" stroke="#D4AF37"/>
+<text x="100" y="460" font-size="28" fill="#F5F5F5">AI Architecture Advisor</text>
+<text x="100" y="495" font-size="18" fill="#B8B0C7">Architecture recommendation system</text>
+<text x="100" y="535" font-size="16" fill="#D4AF37">STACK</text>
+<text x="100" y="562" font-size="18" fill="#F5F5F5">Python • Django • LLM</text>
+<circle cx="105" cy="615" r="7" fill="#FF4FA3"/>
+<text x="125" y="622" font-size="18" fill="#F5F5F5">BUILDING</text>
+
+<!-- Card 4 -->
+<rect x="840" y="420" width="690" height="240" rx="18"
+fill="#1C1527" stroke="#D4AF37"/>
+<text x="870" y="460" font-size="28" fill="#F5F5F5">Restaurant Waste Intelligence</text>
+<text x="870" y="495" font-size="18" fill="#B8B0C7">AI-driven food waste analytics</text>
+<text x="870" y="535" font-size="16" fill="#D4AF37">STACK</text>
+<text x="870" y="562" font-size="18" fill="#F5F5F5">Python • Power BI • ML</text>
+<circle cx="875" cy="615" r="7" fill="#D4AF37"/>
+<text x="895" y="622" font-size="18" fill="#F5F5F5">PLANNING</text>
+
+</g>
+</svg>
