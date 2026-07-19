@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200" width="340" height="200">
+  <defs>
+    <linearGradient id="titlebar4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF8FC0"/>
+      <stop offset="100%" stop-color="#FF5DA8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- stacked windows behind -->
+  <rect x="34" y="34" width="240" height="130" fill="#F7D6EA" stroke="#2B2130" stroke-width="2"/>
+  <rect x="24" y="24" width="240" height="130" fill="#FBE3F1" stroke="#2B2130" stroke-width="2"/>
+
+  <!-- front window -->
+  <rect x="10" y="10" width="256" height="150" fill="#FFF6FB" stroke="#2B2130" stroke-width="3"/>
+  <rect x="10" y="10" width="256" height="26" fill="url(#titlebar4)" stroke="#2B2130" stroke-width="3"/>
+  <text x="20" y="28" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700" fill="#ffffff">bugs.exe</text>
+  <g stroke="#2B2130" stroke-width="1.5">
+    <rect x="240" y="16" width="16" height="16" fill="#FF6B6B"/>
+    <line x1="243" y1="19" x2="253" y2="29"/>
+    <line x1="253" y1="19" x2="243" y2="29"/>
+  </g>
+
+  <text x="30" y="78" font-family="Consolas, 'Courier New', monospace" font-size="17" font-weight="700" fill="#3A2A40">0 bugs found</text>
+  <text x="30" y="102" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#8F6FD6">(today, anyway)</text>
+
+  <rect x="98" y="118" width="80" height="26" fill="#E8D4F0" stroke="#2B2130" stroke-width="2"/>
+  <text x="138" y="135" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#3A2A40">OK</text>
+</svg>
