@@ -50,7 +50,7 @@ Currently Learning:
 
 <p align="center">
 
-<a href="[https://linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/anamika-yadav-961143300/)">
+<a href="(https://www.linkedin.com/in/anamika-yadav-961143300/)">
 <img src="https://skillicons.dev/icons?i=linkedin"/>
 </a>
 
