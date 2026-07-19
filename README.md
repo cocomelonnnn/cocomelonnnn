@@ -1,6 +1,8 @@
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Header">
+</p>
 <div align="center">
 
-<img src="./assets/banner.png" alt="Anamika Yadav Banner" width="100%" />
 
 # Hi, I'm Anamika Yadav 👋
 
