@@ -4,15 +4,13 @@
 <div align="center">
 
 
-# Hi, I'm Anamika Yadav 👋
+<p align="center">
+  <img src="assets/profile.svg" width="100%" alt="Profile">
+</p>
 
-### Software Engineer • AI Developer • Building Intelligent Systems
-
-> *Understanding how things work. Building them better.*
-
-</div>
-
----
+<p align="center">
+  <img src="assets/projects.svg" width="100%" alt="Projects">
+</p>
 
 ## 🌸 About Me
 
