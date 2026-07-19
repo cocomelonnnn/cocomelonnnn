@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CycleSync</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="./lib/fullcalendar.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Indicator -->
+    <div id="loadingIndicator" class="loading-indicator">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Title Animation -->
+    <div class="title-animation" id="titleAnimation">
+        <div class="logo-container">
+            <div class="flower-petals">
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+                <div class="petal"></div>
+            </div>
+            <svg class="heart-icon" viewBox="0 0 24 24">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            <h1 class="title">CycleSync</h1>
+        </div>
+    </div>
+
+    <!-- Auth Container -->
+    <div id="authContainer" class="auth-container" style="display: none;">
+        <div class="auth-box">
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="login">Login</button>
+                <button class="auth-tab" data-tab="register">Register</button>
+            </div>
+
+            <!-- Login Form -->
+            <form id="loginForm" class="auth-form active">
+                <div class="form-group">
+                    <input type="email" id="loginEmail" required>
+                    <label>Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="loginPassword" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+
+            <!-- Registration Form -->
+            <form id="registerForm" class="auth-form">
+                <!-- Step 1: Basic Info -->
+                <div class="register-step active" data-step="1">
+                    <div class="form-group">
+                        <input type="email" id="registerEmail" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="fullName" required>
+                        <label>Full Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="age" required min="10" max="120">
+                        <label>Age</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="registerPassword" required>
+                        <label>Password</label>
+                    </div>
+                    <button type="button" class="btn next-btn">Next</button>
+                </div>
+
+                <!-- Step 2: Health Profile -->
+                <div class="register-step" data-step="2">
+                    <div class="form-group">
+                        <input type="date" id="birthDate" required>
+                        <label>Date of Birth</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="activityLevel" required>
+                            <option value="">Select Activity Level</option>
+                            <option value="sedentary">Sedentary</option>
+                            <option value="light">Lightly Active</option>
+                            <option value="moderate">Moderately Active</option>
+                            <option value="very">Very Active</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-outline back-btn">Back</button>
+                    <button type="button" class="btn next-btn">Next</button>
+                </div>
+
+                <!-- Step 3: Cycle Information -->
+                <div class="register-step" data-step="3">
+                    <div class="form-group">
+                        <input type="date" id="lastPeriod" required>
+                        <label>Last Period Start Date</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="cycleLength" required min="21" max="35" value="28">
+                        <label>Average Cycle Length (days)</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="periodLength" required min="2" max="10" value="5">
+                        <label>Average Period Length (days)</label>
+                    </div>
+                    <button type="button" class="btn btn-outline back-btn">Back</button>
+                    <button type="button" class="btn next-btn">Next</button>
+                </div>
+
+                <!-- Step 4: Preferences -->
+                <div class="register-step" data-step="4">
+                    <div class="goals-group">
+                        <h3>What are your main goals?</h3>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" value="track_period"> Track Period</label>
+                            <label><input type="checkbox" value="track_symptoms"> Track Symptoms</label>
+                            <label><input type="checkbox" value="track_mood"> Track Mood</label>
+                            <label><input type="checkbox" value="track_health"> Track Health</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select id="symptoms" multiple>
+                            <option value="cramps">Cramps</option>
+                            <option value="headache">Headache</option>
+                            <option value="acne">Acne</option>
+                            <option value="bloating">Bloating</option>
+                            <option value="fatigue">Fatigue</option>
+                            <option value="mood_swings">Mood Swings</option>
+                        </select>
+                        <label>Common Symptoms</label>
+                    </div>
+                    <button type="button" class="btn btn-outline back-btn">Back</button>
+                    <button type="submit" class="btn">Complete Registration</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="mainApp" style="display: none;">
+        <nav class="main-nav">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                    <span>CycleSync</span>
+                </div>
+                <div class="nav-links">
+                    <button class="nav-link active" data-view="dashboard">Dashboard</button>
+                    <button class="nav-link" data-view="calendar">Calendar</button>
+                    <button class="nav-link" data-view="trackers">Trackers</button>
+                    <button class="nav-link" data-view="medications">Medications</button>
+                </div>
+                <button id="logoutBtn" class="btn btn-outline">Logout</button>
+            </div>
+        </nav>
+
+        <main class="views-container">
+            <!-- Dashboard View -->
+            <div id="dashboardView" class="view active">
+                <div class="dashboard-grid">
+                    <h2>Welcome to CycleSync!</h2>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <h3 id="successTitle"></h3>
+            <p id="successMessage"></p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./lib/fullcalendar.min.js" defer></script>
+    <script src="./js/auth.js" defer></script>
+    <script src="./js/app.js" defer></script>
+</body>
+</html>
