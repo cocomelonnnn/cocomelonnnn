@@ -1,16 +1,19 @@
-## Hi there 👋
+# 🌸 Hi, I'm Anamika Yadav!
+### AI • Finance • Backend Development
+I'm a Computer Engineering student passionate about building intelligent systems, financial technologies, and AI-powered applications.
 
-<!--
-**cocomelonnnn/cocomelonnnn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Currently exploring:
 
-Here are some ideas to get you started:
+- 💖 Artificial Intelligence
+- 📈 Finance
+- ⚡ Backend Development
+- 🧠 Machine Learning
+- ---
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌸 About Me
+- 🎓 Computer Engineering Student
+- 💻 Always building something new
+- 📚 Learning every day
+- 🌸 Coffee + Music + Coding
+- 🎯 Goal: Build products that solve real problems
