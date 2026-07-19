@@ -1,85 +1,119 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=24,20,14&text=Anamika%20Yadav&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=AI%20•%20Quantitative%20Finance%20•%20Backend%20Engineering&descAlignY=58"/>
+<img src="./assets/banner.png" alt="Anamika Yadav Banner" width="100%" />
 
-<br>
+# Hi, I'm Anamika Yadav 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=23&duration=2800&pause=1000&color=FF1493&center=true&vCenter=true&width=700&lines=Building+Intelligent+Financial+Systems;AI+Developer;Quantitative+Finance+Enthusiast;Backend+Engineer;Always+Learning+💖"/>
+### Software Engineer • AI Developer • Building Intelligent Systems
 
-<br><br>
-
-> ### *"Building products where Artificial Intelligence meets Finance."*
+> *Understanding how things work. Building them better.*
 
 </div>
 
 ---
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF1493&height=100&section=header"/>
+## 🌸 About Me
 
+I'm a Computer Engineering student passionate about building software that solves real-world problems.
 
-```yaml
+My interests currently revolve around:
 
-role:
-  - Computer Engineering Student
+- 🧠 Artificial Intelligence & Machine Learning
+- ⚙️ Backend Engineering
+- 💹 Financial Technology
+- 🔬 Applied Research
+- 📊 Data Analytics
 
-currently_learning:
-  - Artificial Intelligence
-  - Finance
-  - Backend Development
+I enjoy understanding complex systems, breaking them down, and rebuilding them into practical, scalable solutions.
 
-interests:
-  - Machine Learning
-  - Financial Modeling
-  - Research
-  - Open Source
+---
 
-motto: "Keep learning. Keep building."
-```
-## 💻 Tech Arsenal
+## ⚡ Tech Stack
 
-<p align="center">
+### Languages
 
-<img src="https://skillicons.dev/icons?i=python,java,c,django,mysql,git,github,vscode,html,css&perline=6"/>
-
+<p>
+<img src="https://skillicons.dev/icons?i=java,python,js,html,css,mysql" />
 </p>
 
-## 🚀 Current Focus
+### Frameworks & Libraries
 
-```text
-📊 AI-Powered DCF Valuation Platform
+<p>
+<img src="https://skillicons.dev/icons?i=django,nodejs,react" />
+</p>
 
-🛡 Financial Fraud Detection using Machine Learning
+### Tools
 
-🏗 AI Software Architecture Recommendation System
-
-📚 Strengthening Data Structures & Algorithms
-```
-## 📊 GitHub Stats
-
-<p align="center">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=cocomelonnnn&show_icons=true&theme=radical"/>
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman" />
 </p>
 
 ---
-## 🌐 Connect with Me
+
+## 🚀 Currently Working On
+
+- 🤖 AI-powered Financial Systems
+- 📈 Intelligent Valuation & Analytics
+- ⚙️ Backend Development
+- 📚 Strengthening DSA & System Design
+- 💻 Building production-ready projects
+
+---
+
+## 📌 Featured Projects
+
+> *(Pinned repositories will appear here on your GitHub profile.)*
+
+---
+
+## 📈 GitHub Analytics
 
 <p align="center">
 
-<a href="(https://www.linkedin.com/in/anamika-yadav-961143300/)">
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=cocomelonnnn&show_icons=true&theme=transparent&hide_border=true&title_color=FF1493&icon_color=FF1493&text_color=ffffff"/>
+
+<img width="48%" src="https://streak-stats.demolab.com?user=cocomelonnnn&theme=transparent&hide_border=true&ring=FF1493&fire=FF1493&currStreakLabel=FF1493"/>
+
+</p>
+
+<p align="center">
+
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cocomelonnnn&layout=compact&theme=transparent&hide_border=true&title_color=FF1493&text_color=ffffff"/>
+
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/cocomelonnnn/cocomelonnnn/output/github-contribution-grid-snake-dark.svg"/>
+
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://linkedin.com/in/YOUR_LINKEDIN">
 <img src="https://skillicons.dev/icons?i=linkedin"/>
 </a>
 
-<a href="mailto:anamika30251@gmail.com">
+<a href="mailto:YOUR_EMAIL">
 <img src="https://skillicons.dev/icons?i=gmail"/>
 </a>
 
 </p>
+
 ---
 
 <div align="center">
 
-### 🌸 *"Every great product starts with one commit."*
+### Thanks for stopping by!
 
-⭐ Thank you for visiting ⭐
+⭐ *Always learning. Always building.*
 
 </div>
