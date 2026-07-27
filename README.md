@@ -60,30 +60,6 @@ I enjoy understanding complex systems, breaking them down, and rebuilding them i
 
 ---
 
-## 📌 Featured Projects
-
-> *(Pinned repositories will appear here on your GitHub profile.)*
-
----
-
-## 📈 GitHub Analytics
-
-<p align="center">
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=cocomelonnnn&show_icons=true&theme=transparent&hide_border=true&title_color=FF1493&icon_color=FF1493&text_color=ffffff"/>
-
-<img width="48%" src="https://streak-stats.demolab.com?user=cocomelonnnn&theme=transparent&hide_border=true&ring=FF1493&fire=FF1493&currStreakLabel=FF1493"/>
-
-</p>
-
-<p align="center">
-
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cocomelonnnn&layout=compact&theme=transparent&hide_border=true&title_color=FF1493&text_color=ffffff"/>
-
-</p>
-
----
-
 ## 🐍 Contribution Snake
 
 <p align="center">
